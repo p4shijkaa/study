@@ -26,31 +26,33 @@
 #
 # print(high('man i need a taxi up to ubud'))
 
-def two_sum(numbers, target):
-    required = {}
-    for i in range(len(numbers)):
-        if target - numbers[i] in required:
-            return [required[target - numbers[i]],i]
-        else:
-            required[numbers[i]]=i
+# def two_sum(numbers, target):
+#     required = {}
+#     for i in range(len(numbers)):
+#         if target - numbers[i] in required:
+#             return [required[target - numbers[i]],i]
+#         else:
+#             required[numbers[i]]=i
+#
+#
+# print(two_sum([1234,5678,9012], 14690))
 
 
-print(two_sum([1234,5678,9012], 14690))
-
-
-def rot13(s):
+def encode_rot13(s):
     l = []
     for i in s:
         if i.isalpha():
-            if ord(i) - 96 < 13:
-                l.append(chr(ord(i)+13))
-            else:
+            if i.islower() and ord(i) - 96 > 13 or i.isupper() and ord(i) - 64 > 13:
                 l.append(chr(ord(i)-13))
+            else:
+                l.append(chr(ord(i)+13))
         else:
             l.append(i)
     return "".join(l)
 
-print(rot13("Guvf vf npghnyyl gur svefg xngn V rire znqr. Gunaxf sbe svavfuvat vg! :)"))
+print(encode_rot13("How can you tell an extrovert from an\nintrovert at NSA? Va gur ryringbef,\ngur rkgebireg ybbxf ng gur BGURE thl'f fubrf."))
+#"Ubj pna lbh gryy na rkgebireg sebz na\nvagebireg ng AFN? In the elevators,\nthe extrovert looks at the OTHER guy's shoes."
+
 
 
 
