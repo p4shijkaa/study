@@ -26,17 +26,16 @@
 #
 # print(high('man i need a taxi up to ubud'))
 
-# def two_sum(numbers, target):
-#     required = {}
-#     for i in range(len(numbers)):
-#         if target - numbers[i] in required:
-#             return [required[target - numbers[i]],i]
-#         else:
-#             required[numbers[i]]=i
-#
-#
-# print(two_sum([1234,5678,9012], 14690))
+def two_sum(numbers, target):
+    required = {}
+    for i in range(len(numbers)):
+        if target - numbers[i] in required:
+            return [required[target - numbers[i]],i]
+        else:
+            required[numbers[i]]=i
 
+
+print(two_sum([1234,5678,9012], 14690))
 
 
 def rot13(s):
