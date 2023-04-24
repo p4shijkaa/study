@@ -1,4 +1,3 @@
-
 # def insert_dash(num):
 #
 #   digits = [d for d in str(num)]
@@ -37,12 +36,6 @@
 #
 #
 # print(two_sum([1234,5678,9012], 14690))
-
-# land_perimeter(["OOOOXO", "XOXOOX", "XXOXOX", "XOXOOO", "OOOOOO", "OOOXOO", "OOXXOO"]), 40
-#
-# (land_perimeter(["XXXXXOOO", "OOXOOOOO", "OOOOOOXO", "XXXOOOXO", "OXOXXOOX"]) 40
-
-
 
 
 
