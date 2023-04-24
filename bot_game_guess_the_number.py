@@ -27,10 +27,6 @@ def get_random_number() -> int:
     return random.randint(1, 100)
 
 
-# check git
-
-
-
 # Этот хэндлер будет срабатывать на команду "/start"
 @dp.message(Command(commands=['start']))
 async def process_start_command(message: Message):
@@ -147,3 +143,6 @@ async def process_other_text_answers(message: Message):
 
 if __name__ == '__main__':
     dp.run_polling(bot)
+
+
+
