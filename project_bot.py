@@ -1,110 +1,123 @@
 """FINITE STATE MACHINE"""
 
 
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import types, executor, Bot, Dispatcher
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import StatesGroup, State
-from keyboard import *
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
 from sqlite import db_start, create_profile, edit_profile
 
 
-storage = MemoryStorage()
+async def on_startup(_):
+    await db_start()
 
 API_TOKEN = '6003655761:AAF8d5hdEw_OTeMiPg9t3bLCPOqXVUARzQ0'
 
+storage = MemoryStorage()
 bot = Bot(API_TOKEN)
-dp = Dispatcher(bot, storage=storage)
+dp = Dispatcher(bot,
+                storage=storage)
 
 
 class ProfileStatesGroup(StatesGroup):
+
     photo = State()
     name = State()
     age = State()
     description = State()
 
 
-def get_kb():
+def get_kb() -> ReplyKeyboardMarkup:
     kb = ReplyKeyboardMarkup(resize_keyboard=True)
-    kb.add(KeyboardButton("/create"))
+    kb.add(KeyboardButton('/create'))
+
+    return kb
+
+def get_cancel_kb() -> ReplyKeyboardMarkup:
+    kb = ReplyKeyboardMarkup(resize_keyboard=True)
+    kb.add(KeyboardButton('/cancel'))
+
     return kb
 
 
-def get_cancel_kb():
-    kb = ReplyKeyboardMarkup(resize_keyboard=True)
-    kb.add(KeyboardButton("/cancel"))
-    return kb
-
-
-@dp.message_handler(commands=["cancel"], state="*")
-async def get_cancel(message: types.Message, state: FSMContext):
+@dp.message_handler(commands=['cancel'], state='*')
+async def cmd_cancel(message: types.Message, state: FSMContext):
     if state is None:
         return
 
-
     await state.finish()
-    await message.reply("Вы прервали создание анкеты", reply_markup=get_kb())
+    await message.reply('Вы прервали создание анкеты!',
+                        reply_markup=get_kb())
 
-@dp.message_handler(commands=["start"])
-async def cmd_start(message: types.Message):
-    await message.answer("Welcome to profile - /create",
+
+@dp.message_handler(commands=['start'])
+async def cmd_start(message: types.Message) -> None:
+    await message.answer('Welcome! So as to create profile - type /create',
                          reply_markup=get_kb())
 
-@dp.message_handler(commands=["create"])
-async def cmd_create(message: types.Message):
-    await message.reply("Create your profile", reply_markup=get_cancel_kb())
-    await ProfileStatesGroup.photo.set()
+    await create_profile(user_id=message.from_user.id)
+
+
+@dp.message_handler(commands=['create'])
+async def cmd_create(message: types.Message) -> None:
+    await message.reply("Let's create your profile! To begin with, send me your photo!",
+                        reply_markup=get_cancel_kb())
+    await ProfileStatesGroup.photo.set()  # установили состояние фото
+
 
 @dp.message_handler(lambda message: not message.photo, state=ProfileStatesGroup.photo)
 async def check_photo(message: types.Message):
-    await message.reply("Это не фото")
+    await message.reply('Это не фотография!')
 
 
-@dp.message_handler(content_types=["photo"], state=ProfileStatesGroup.photo)
-async def load_photo(message: types.Message, state: FSMContext):
+@dp.message_handler(content_types=['photo'], state=ProfileStatesGroup.photo)
+async def load_photo(message: types.Message, state: FSMContext) -> None:
     async with state.proxy() as data:
-        data["photo"] = message.photo[0].file_id
+        data['photo'] = message.photo[0].file_id
 
-    await message.reply("теперь отправь свое имя")
+    await message.reply('Теперь отправь своё имя!')
     await ProfileStatesGroup.next()
+
+
+@dp.message_handler(lambda message: not message.text.isdigit() or float(message.text) > 100, state=ProfileStatesGroup.age)
+async def check_age(message: types.Message):
+    await message.reply('Введите реальный возраст!')
 
 
 @dp.message_handler(state=ProfileStatesGroup.name)
-async def load_name(message: types.Message, state: FSMContext):
+async def load_name(message: types.Message, state: FSMContext) -> None:
     async with state.proxy() as data:
-        data["photo"] = message.text
+        data['name'] = message.text
 
-    await message.reply("Сколько тебе лет?")
+    await message.reply('Сколько тебе лет?')
     await ProfileStatesGroup.next()
 
 
-@dp.message_handler(lambda message: not message.text.isdigit(), state=ProfileStatesGroup.age)
-async def check_photo(message: types.Message):
-    await message.reply("возраст должен быть цифрой")
-
-
 @dp.message_handler(state=ProfileStatesGroup.age)
-async def load_age(message: types.Message, state: FSMContext):
+async def load_age(message: types.Message, state: FSMContext) -> None:
     async with state.proxy() as data:
-        data["age"] = message.text
+        data['age'] = message.text
 
-    await message.reply("А теперь расскажи немного о себе")
+    await message.reply('А теперь расскажи немного о себе!')
     await ProfileStatesGroup.next()
 
 
 @dp.message_handler(state=ProfileStatesGroup.description)
-async def load_description(message: types.Message, state: FSMContext):
+async def load_desc(message: types.Message, state: FSMContext) -> None:
     async with state.proxy() as data:
-        data["description"] = message.text
+        data['description'] = message.text
+        await bot.send_photo(chat_id=message.from_user.id,
+                             photo=data['photo'],
+                             caption=f"{data['name']}, {data['age']}\n{data['description']}")
 
-    await message.reply("Ваша анкета успешно создана")
+    await edit_profile(state, user_id=message.from_user.id)
+    await message.reply('Ваша акнета успешно создана!')
     await state.finish()
 
 
-
-async def on_startup(_):
-    print("Бот запущен!")
-
-if __name__ == "__main__":
-    executor.start_polling(dp, on_startup=on_startup, skip_updates=True)
+if __name__ == '__main__':
+    executor.start_polling(dp,
+                           skip_updates=True,
+                           on_startup=on_startup)
