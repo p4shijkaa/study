@@ -1,0 +1,302 @@
+{
+    "539839": {
+        "article_date_timestamp": 1688998200.0,
+        "article_title": "Троянский конь «TOITOIN» несётся галопом по бизнес-предприятиям в Латинской Америке",
+        "article_url": "https://www.securitylab.ru/news/539839.php",
+        "article_desc": "Хакеры используют MP3-файлы для скрытной доставки полезной нагрузки на целевые компьютеры."
+    },
+    "539837": {
+        "article_date_timestamp": 1688996400.0,
+        "article_title": "Сквозь солнечную бурю: ИИ от NASA помогает нам видеть будущее",
+        "article_url": "https://www.securitylab.ru/news/539837.php",
+        "article_desc": "NASA научилось прогнозировать сбои в электрооборудовании и головные боли у людей."
+    },
+    "539838": {
+        "article_date_timestamp": 1688996398.0,
+        "article_title": "Судебный прорыв: в Канаде неосторожность с эмодзи может стоить 82 000 долларов",
+        "article_url": "https://www.securitylab.ru/news/539838.php",
+        "article_desc": "Может ли «большой палец вверх» иметь юридическую силу?"
+    },
+    "539835": {
+        "article_date_timestamp": 1688994600.0,
+        "article_title": "Питьевая вода из воздуха: фантастика становится реальностью",
+        "article_url": "https://www.securitylab.ru/news/539835.php",
+        "article_desc": "Чтобы набрать стакан воды, нужны только воздух и солнце."
+    },
+    "539834": {
+        "article_date_timestamp": 1688994300.0,
+        "article_title": "Киберпреступники активно подделывают системы авторизации Microsoft и Adobe",
+        "article_url": "https://www.securitylab.ru/news/539834.php",
+        "article_desc": "Эксперты компании Vade дали практические советы, как не попасться на удочку мошенников."
+    },
+    "539833": {
+        "article_date_timestamp": 1688991900.0,
+        "article_title": "Руководство LongEval: грандиозный прорыв в области оценки текстов ChatGPT",
+        "article_url": "https://www.securitylab.ru/news/539833.php",
+        "article_desc": "Новый инструмент оценки LongEval вводит общие стандарты для проверки достоверности ИИ-текстов."
+    },
+    "539830": {
+        "article_date_timestamp": 1688991626.0,
+        "article_title": "ChatGPT осваивает программирование: добро пожаловать в новую эру с плагином Code Interpreter",
+        "article_url": "https://www.securitylab.ru/news/539830.php",
+        "article_desc": "Как GPT-4 пишет будущее на языке Python и кому будет доступна новая функция."
+    },
+    "539829": {
+        "article_date_timestamp": 1688989800.0,
+        "article_title": "Украина, НАТО и кибератаки: формула успеха группы RomCom",
+        "article_url": "https://www.securitylab.ru/news/539829.php",
+        "article_desc": "Пока союзники Украины ожидают саммита НАТО, хакеры призывают политиков одобрить вступление Украины в блок"
+    },
+    "539826": {
+        "article_date_timestamp": 1688988608.0,
+        "article_title": "Мартин Льюис обвиняет Meta* в недостаточном контроле одной из своих платформ",
+        "article_url": "https://www.securitylab.ru/news/539826.php",
+        "article_desc": "Телеведущий из Великобритании посетовал на распространение в социальной сети Facebook* дипфейк-аферы с его участием."
+    },
+    "539823": {
+        "article_date_timestamp": 1688986800.0,
+        "article_title": "Космический киборг Валькирия станет главным помощником астронавтов на Луне и Марсе",
+        "article_url": "https://www.securitylab.ru/news/539823.php",
+        "article_desc": "Человекоподобный робот будет самостоятельно покорять космос и станет главным ассистентом астронавтов."
+    },
+    "539814": {
+        "article_date_timestamp": 1688983800.0,
+        "article_title": "Криптоплатформа Multichain подверглась самому крупному взлому с момента своего основания",
+        "article_url": "https://www.securitylab.ru/news/539814.php",
+        "article_desc": "Хакеры украли около 125 миллионов долларов в разных криптовалютах, включая USDT, USDC, Bitcoin и ETH."
+    },
+    "539816": {
+        "article_date_timestamp": 1688982254.0,
+        "article_title": "Какой IT-продукт не имеет российского аналога? Минцифры представит «IT-ландшафт»",
+        "article_url": "https://www.securitylab.ru/news/539816.php",
+        "article_desc": "Обзорная карта послужит основой для разработки российских аналогов зарубежных сервисов для бизнеса."
+    },
+    "539815": {
+        "article_date_timestamp": 1688982251.0,
+        "article_title": "Невинное приложение, серьезные последствия: как AirDrop превратил полет в опасное приключение",
+        "article_url": "https://www.securitylab.ru/news/539815.php",
+        "article_desc": "Функция iPhone стала орудием террора на борту самолета."
+    },
+    "539813": {
+        "article_date_timestamp": 1688980020.0,
+        "article_title": "Нарушение авторских прав или технологический прорыв: OpenAI и Meta* будут отвечать перед судом за свои технологии",
+        "article_url": "https://www.securitylab.ru/news/539813.php",
+        "article_desc": "Ведущие писатели взбунтовались – нейросети отбирают их хлеб."
+    },
+    "539812": {
+        "article_date_timestamp": 1688977500.0,
+        "article_title": "Роботы клянутся не убивать людей, но стоит ли верить в их обещания",
+        "article_url": "https://www.securitylab.ru/news/539812.php",
+        "article_desc": "Журналисты задали ИИ-машинам множество неловких вопросов на недавнем саммите ООН."
+    },
+    "539844": {
+        "article_date_timestamp": 1689003300.0,
+        "article_title": "Исследователи опубликовали PoC-эксплойт для недавней уязвимости Ubiquiti EdgeRouter",
+        "article_url": "https://www.securitylab.ru/news/539844.php",
+        "article_desc": "Всем пользователям данного сетевого оборудования рекомендуется как можно скорее обновиться до актуальной версии прошивки."
+    },
+    "539855": {
+        "article_date_timestamp": 1689066600.0,
+        "article_title": "Pixel Call Screen станет ещё лучше: бета-тестеры раскрыли все карты Google",
+        "article_url": "https://www.securitylab.ru/news/539855.php",
+        "article_desc": "Искусственный интеллект всё плотнее задействуется в обработке вызовов и может приятно порадовать владельцев фирменных гаджетов."
+    },
+    "539856": {
+        "article_date_timestamp": 1689066286.0,
+        "article_title": "Недоработка платежной системы стоила Revolut $20 млн",
+        "article_url": "https://www.securitylab.ru/news/539856.php",
+        "article_desc": "Финтех-компания столкнулась с массовым мошенничеством в США и не раскрыла инцидент публично."
+    },
+    "539851": {
+        "article_date_timestamp": 1689065467.0,
+        "article_title": "Революционная технология визуализации мозга раскрывает тонкости формирования памяти",
+        "article_url": "https://www.securitylab.ru/news/539851.php",
+        "article_desc": "Совершен прорыв в технологии визуализации мозга, который обещает беспрецедентное понимание того, как создаются и теряются воспоминания."
+    },
+    "539854": {
+        "article_date_timestamp": 1689062820.0,
+        "article_title": "Хакеры объединили отпуск и работу, атаковав судебную систему Тринидада и Тобаго",
+        "article_url": "https://www.securitylab.ru/news/539854.php",
+        "article_desc": "Из-за кибератаки адвокаты лишились работы, а судьям некого судить."
+    },
+    "539853": {
+        "article_date_timestamp": 1689059887.0,
+        "article_title": "Почему профессор Гарварда считает, что, возможно, нашел фрагменты инопланетного космического корабля",
+        "article_url": "https://www.securitylab.ru/news/539853.php",
+        "article_desc": "Ученые якобы нашли следы внеземной цивилизации на дне Тихого океана"
+    },
+    "539848": {
+        "article_date_timestamp": 1689059801.0,
+        "article_title": "«Большая перемена» стала «большой утечкой»",
+        "article_url": "https://www.securitylab.ru/news/539848.php",
+        "article_desc": "Взломан сайт всероссийского конкурса для молодежи."
+    },
+    "539850": {
+        "article_date_timestamp": 1689057366.0,
+        "article_title": "Фотосинтез и конденсат Бозе-Эйнштейна: неожиданная связь между жизнью и материей",
+        "article_url": "https://www.securitylab.ru/news/539850.php",
+        "article_desc": "В листьях скрывается пятая стихия."
+    },
+    "539849": {
+        "article_date_timestamp": 1689054734.0,
+        "article_title": "Apple выпускает срочное исправление для уязвимости нулевого дня, нацеленной на iOS, iPadOS, macOS и Safari",
+        "article_url": "https://www.securitylab.ru/news/539849.php",
+        "article_desc": "Уязвимость активно эксплуатируется в дикой природе."
+    },
+    "539847": {
+        "article_date_timestamp": 1689012487.0,
+        "article_title": "Спорное обновление в Telegram: сбор IP-адресов для рекламы",
+        "article_url": "https://www.securitylab.ru/news/539847.php",
+        "article_desc": "Теперь можно более точно таргетировать рекламу на целевую аудиторию."
+    },
+    "539846": {
+        "article_date_timestamp": 1689006243.0,
+        "article_title": "Как предотвратить киберармагеддон: 5 сценариев, которые могут стать реальностью",
+        "article_url": "https://www.securitylab.ru/news/539846.php",
+        "article_desc": "Учёные требуют моратория на развитие ИИ."
+    },
+    "539878": {
+        "article_date_timestamp": 1689082800.0,
+        "article_title": "Telegram как минное поле: новая угроза для пользователей Android",
+        "article_url": "https://www.securitylab.ru/news/539878.php",
+        "article_desc": "В новой версии Telegram обнаружено мощное вредоносное ПО."
+    },
+    "539877": {
+        "article_date_timestamp": 1689081600.0,
+        "article_title": "Атакован гигант колорадской промышленности: Gates Corporation в центре скандала",
+        "article_url": "https://www.securitylab.ru/news/539877.php",
+        "article_desc": "Денверская компания самостоятельно расшифровала серверы, но вот данные сотрудников сберечь не смогла…"
+    },
+    "539875": {
+        "article_date_timestamp": 1689079320.0,
+        "article_title": "Мосты разрушены, активы заморожены – вот что происходит с Multichain",
+        "article_url": "https://www.securitylab.ru/news/539875.php",
+        "article_desc": "Серия миллионных краж перевернула криптовалютные операции."
+    },
+    "539873": {
+        "article_date_timestamp": 1689077424.0,
+        "article_title": "SCARLETEEL наносит новый удар: облачной службе AWS Fargate пришлось несладко",
+        "article_url": "https://www.securitylab.ru/news/539873.php",
+        "article_desc": "Коварные хакеры способны зарабатывать на криптоджекинге до 4000 долларов в день, но финансовая выгода — не их основной приоритет."
+    },
+    "539852": {
+        "article_date_timestamp": 1689077121.0,
+        "article_title": "Небесный скандал: спутники Starlink нарушают права радиоастрономов на тихое небо",
+        "article_url": "https://www.securitylab.ru/news/539852.php",
+        "article_desc": "Ученые выяснили, что спутники Starlink компании SpaceX излучают радиоволны в защищенной полосе, выделенной для радиоастрономии, и призвали к регулированию этого явления."
+    },
+    "539871": {
+        "article_date_timestamp": 1689075600.0,
+        "article_title": "Новая эра гонки вооружений: кто овладеет ИИ, тот будет править миром",
+        "article_url": "https://www.securitylab.ru/news/539871.php",
+        "article_desc": "По словам экспертов, применение ИИ в конфликтах открыло новые горизонты для противостояния держав."
+    },
+    "539865": {
+        "article_date_timestamp": 1689075000.0,
+        "article_title": "Компания Ventia пытается восстановить свои системы после разрушительной кибератаки",
+        "article_url": "https://www.securitylab.ru/news/539865.php",
+        "article_desc": "Что теперь будет с водой, газом и электричеством в Австралии и Новой Зеландии?"
+    },
+    "539863": {
+        "article_date_timestamp": 1689073200.0,
+        "article_title": "Крупнейший медицинский траст Великобритании Barts Health NHS стал жертвой кибератаки",
+        "article_url": "https://www.securitylab.ru/news/539863.php",
+        "article_desc": "Хакеры, которые украли 70 ТБ конфиденциальных данных, поставили под сомнение защиту данных в Великобритании."
+    },
+    "539866": {
+        "article_date_timestamp": 1689072985.0,
+        "article_title": "Президент России подписывает исторический закон о расширении КИИ",
+        "article_url": "https://www.securitylab.ru/news/539866.php",
+        "article_desc": "Владимир Путин подписал закон о расширении перечня критической информационной инфраструктуры."
+    },
+    "539861": {
+        "article_date_timestamp": 1689071400.0,
+        "article_title": "Хейвард в режиме киберблокады: неизвестные хакеры выключили онлайн услуги в городе",
+        "article_url": "https://www.securitylab.ru/news/539861.php",
+        "article_desc": "Власти ведут расследование атаки, а местные жители мирятся с возникшими ограничениями и неудобствами."
+    },
+    "539859": {
+        "article_date_timestamp": 1689070980.0,
+        "article_title": "Хакеры отключили американские радиостанции Sonoma Media Group",
+        "article_url": "https://www.securitylab.ru/news/539859.php",
+        "article_desc": "От краха радиостанции спасла только одна технология."
+    },
+    "539858": {
+        "article_date_timestamp": 1689069230.0,
+        "article_title": "Артемий Лебедев обещает биткоины: благотворительность или блеф?",
+        "article_url": "https://www.securitylab.ru/news/539858.php",
+        "article_desc": "Известный дизайнер и блогер объявил о сборе криптовалюты в своем телеграм-канале."
+    },
+    "539857": {
+        "article_date_timestamp": 1689067860.0,
+        "article_title": "Reddit vs Голливуд: битва за анонимность в интернете набирает обороты",
+        "article_url": "https://www.securitylab.ru/news/539857.php",
+        "article_desc": "Reddit в очередной раз отстаивает анонимность своих пользователей в деле о пиратстве."
+    },
+    "539894": {
+        "article_date_timestamp": 1689149892.0,
+        "article_title": "Как остановить беспилотник одним конусом: активисты в Сан-Франциско борются с роботакси",
+        "article_url": "https://www.securitylab.ru/news/539894.php",
+        "article_desc": "Активисты группы Safe Streets Rebel выставляют дорожные конусы на капоты машин Waymo и Cruise, чтобы вывести их из строя."
+    },
+    "539893": {
+        "article_date_timestamp": 1689148859.0,
+        "article_title": "Denuvo хочет доказать, что не виновата в тормозах игр",
+        "article_url": "https://www.securitylab.ru/news/539893.php",
+        "article_desc": "Компания запускает программу для независимого тестирования своей технологии защиты DRM."
+    },
+    "539891": {
+        "article_date_timestamp": 1689148020.0,
+        "article_title": "Большое обновление Microsoft: исправлены 132 уязвимости, включая 0day, но одна всё ещё представляет опасную угрозу",
+        "article_url": "https://www.securitylab.ru/news/539891.php",
+        "article_desc": "Вторник исправлений в июле оказался насыщен обновлениями опасных и 0day-уязвимостей."
+    },
+    "539895": {
+        "article_date_timestamp": 1689147000.0,
+        "article_title": "Драйверы режима ядра: скрытая опасность для всех пользователей Windows",
+        "article_url": "https://www.securitylab.ru/news/539895.php",
+        "article_desc": "Microsoft отзывает сертификаты, а китайские хакеры ищут новые лазейки для проведения атак."
+    },
+    "539892": {
+        "article_date_timestamp": 1689146735.0,
+        "article_title": "«Аврора»: от госсектора к массмаркету",
+        "article_url": "https://www.securitylab.ru/news/539892.php",
+        "article_desc": "Минпромторг решил расширить аудиторию российской ОС."
+    },
+    "539889": {
+        "article_date_timestamp": 1689144120.0,
+        "article_title": "Скрытый замок киберпиратов: раскрываем секреты вымогателя Big Head",
+        "article_url": "https://www.securitylab.ru/news/539889.php",
+        "article_desc": "Таинственная программа-вымогатель Big Head не даёт пользователю шанса предотвратить заражение."
+    },
+    "539888": {
+        "article_date_timestamp": 1689091609.0,
+        "article_title": "Дроны-бэтмены – новые союзники агрономов в борьбе с вредителями",
+        "article_url": "https://www.securitylab.ru/news/539888.php",
+        "article_desc": "Как биологи и инженеры решили главную проблему сельского хозяйства."
+    },
+    "539887": {
+        "article_date_timestamp": 1689091080.0,
+        "article_title": "Осторожно, мессенджеры: мошенники переключились на личные сообщения",
+        "article_url": "https://www.securitylab.ru/news/539887.php",
+        "article_desc": "Как правительство борется с киберфродом и подействуют ли новые методы?"
+    },
+    "539885": {
+        "article_date_timestamp": 1689090000.0,
+        "article_title": "Аналитики рассекретили амбициозный план Китая по созданию ИИ, превосходящего человека",
+        "article_url": "https://www.securitylab.ru/news/539885.php",
+        "article_desc": "Сотни статей за 4 года открывают завесы тайны активных исследований Китая в области ИИ."
+    },
+    "539886": {
+        "article_date_timestamp": 1689089880.0,
+        "article_title": "Как отдохнуть на 150 000 рублей, если ты хакер?",
+        "article_url": "https://www.securitylab.ru/news/539886.php",
+        "article_desc": "Двое мужчин получили свободный доступ к курорту, но что-то пошло не так."
+    },
+    "539881": {
+        "article_date_timestamp": 1689087000.0,
+        "article_title": "«Аномный судан» против ЛГБТ-фанфиков: кто же победит в этом противостоянии",
+        "article_url": "https://www.securitylab.ru/news/539881.php",
+        "article_desc": "Грозные хактивисты с религиозными мотивами решили отучить любителей фанатских рассказов от их любимого чтива."
+    }
+}
